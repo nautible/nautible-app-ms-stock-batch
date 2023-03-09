@@ -1,2 +1,1 @@
-# nautible-app-ms-stock-batch
-在庫サービス(バッチ)のリポジトリ
+# nautible-app-ms-stock-batch project
