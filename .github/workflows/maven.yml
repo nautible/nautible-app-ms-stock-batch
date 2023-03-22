@@ -126,7 +126,7 @@ jobs:
         TOKEN: ${{ secrets.PAT }}
         BRANCH: ${{ github.ref_name }}
         TAG: update-image-feature-${{ github.sha }}
-        APP_NAME: stock
+        APP_NAME: stock-batch
         ACR_REGISTRY: nautibledevacr.azurecr.io
       run: |
         cd $GITHUB_WORKSPACE/nautible-app-ms-$APP_NAME-manifest
