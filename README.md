@@ -1,5 +1,9 @@
 # nautible-app-ms-stock-batch project
 このドキュメントには在庫(バッチ)アプリケーションについて記載する。
+この在庫(バッチ)アプリケーションは、[在庫アプリケーション](https://github.com/nautible/nautible-app-ms-stock) へ在庫の問い合わせを行い、商品在庫の数量に応じて以下のログ出力を行う。
+- 在庫数量 0 以下で severe ログ出力
+- 在庫数量 5 以下で warning ログ出力
+
 アプリケーション共通の内容については[こちら](https://github.com/nautible/docs/blob/main/referenceapp-architecture/README.md)を参照。
 Quarkusアプリケーション共通の内容については[こちら](https://github.com/nautible/docs/blob/main/reference/quarkus/README.md)を参照。
 
