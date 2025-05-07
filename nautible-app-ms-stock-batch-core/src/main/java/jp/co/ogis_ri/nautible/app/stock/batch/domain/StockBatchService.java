@@ -3,8 +3,8 @@ package jp.co.ogis_ri.nautible.app.stock.batch.domain;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 
 import jp.co.ogis_ri.nautible.app.stock.batch.config.StockBatchConfiguration;
 import jp.co.ogis_ri.nautible.app.stock.batch.config.StockBatchConfiguration.QuantityThreshold;
