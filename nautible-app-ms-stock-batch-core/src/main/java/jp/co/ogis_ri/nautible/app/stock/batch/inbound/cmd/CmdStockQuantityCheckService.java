@@ -4,8 +4,8 @@ import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import javax.inject.Inject;
-import javax.inject.Named;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
 import io.dapr.client.DaprClient;
 import io.quarkus.picocli.runtime.annotations.TopCommand;
